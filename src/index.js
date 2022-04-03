@@ -19,7 +19,7 @@ ReactDOM.render(
       <Route path={`/videos/:url`}>
        <VideoOnDemand/>
        </Route> 
-      {/* <Redirect from={`/`} to="/admin/dashboard" /> */}
+      <Redirect from={`/`} to="/home/explore" />
     </Switch>
   </HashRouter>,
   document.getElementById("root")
