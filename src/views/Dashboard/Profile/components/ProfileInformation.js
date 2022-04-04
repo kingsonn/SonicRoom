@@ -77,6 +77,9 @@ const ProfileInformation = ({
           url: "https://livepeer.com/api/asset/import",
           method: "POST",
           headers: {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-origin": "https://lively-sunshine-ae0d00.netlify.app/",
+            "access-control-expose-headers": "*",
             authorization: "Bearer de3fbe64-204e-4359-ad48-f57f39d6a0dc",
             "content-type": "application/json"
           },
