@@ -1,8 +1,7 @@
 {
-  "name": "purity-dashboard-react",
+  "name": "SonicRoom",
   "version": "1.0.1",
   "private": true,
-  "homepage": "https://demos.creative-tim.com/purity-ui-dashboard/#/",
   "dependencies": {
     "@biconomy/mexa": "^2.0.32",
     "@chakra-ui/icons": "^1.0.14",
@@ -83,6 +82,9 @@
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9",
     "prettier": "2.2.1"
+  },
+  "browser": {
+    "crypto": false
   },
   "browserslist": {
     "production": [
