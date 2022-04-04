@@ -36,7 +36,7 @@ const VideoCube = (recordingId) => {
 const [ loadVid, setLoadVid] = useState(false)
 const [play, setPlay]= useState(false)
 // const [ loadVid, setLoadVid] = useState(false)
-const textures = data.map((vid)=>{
+const textures = recordingId.map((vid)=>{
     
     const videoElement = document.createElement("video");
         const hls = new Hls();
@@ -105,108 +105,3 @@ export default Recordings;
 
 
 
-const data=[
-    {
-        "lastSeen": 1648382070102,
-        "isActive": false,
-        "record": true,
-        "suspended": false,
-        "sourceSegments": 18,
-        "transcodedSegments": 54,
-        "sourceSegmentsDuration": 82.13400000000001,
-        "transcodedSegmentsDuration": 246.40199999999996,
-        "sourceBytes": 21751036,
-        "transcodedBytes": 16391344,
-        "id": "f1733111-29e7-49b3-9264-40843794fdbc",
-        "kind": "stream",
-        "name": "videorec+f173mn805rk3283v",
-        "region": "sin",
-        "userId": "3d24b498-ea73-489d-8d21-eda338f5b242",
-        "parentId": "f173ba22-771a-4da7-945d-e6a06ded044c",
-        "profiles": [
-            {
-                "fps": 30,
-                "gop": "2.0",
-                "name": "720p",
-                "width": 1280,
-                "height": 720,
-                "bitrate": 2000000
-            },
-            {
-                "fps": 30,
-                "gop": "2.0",
-                "name": "480p",
-                "width": 854,
-                "height": 480,
-                "bitrate": 1000000
-            },
-            {
-                "fps": 30,
-                "gop": "2.0",
-                "name": "360p",
-                "width": 640,
-                "height": 360,
-                "bitrate": 500000
-            }
-        ],
-        "createdAt": 1648381890109,
-        "ingestRate": 0,
-        "renditions": {},
-        "outgoingRate": 0,
-        "recordingStatus": "ready",
-        "recordingUrl": "https://cdn.livepeer.com/recordings/f1733111-29e7-49b3-9264-40843794fdbc/index.m3u8",
-        "mp4Url": "https://cdn.livepeer.com/recordings/f1733111-29e7-49b3-9264-40843794fdbc/source.mp4"
-    },
-    {
-        "lastSeen": 1648382070102,
-        "isActive": false,
-        "record": true,
-        "suspended": false,
-        "sourceSegments": 18,
-        "transcodedSegments": 54,
-        "sourceSegmentsDuration": 82.13400000000001,
-        "transcodedSegmentsDuration": 246.40199999999996,
-        "sourceBytes": 21751036,
-        "transcodedBytes": 16391344,
-        "id": "f1733111-29e7-49b3-9264-40843794fdbc",
-        "kind": "stream",
-        "name": "videorec+f173mn805rk3283v",
-        "region": "sin",
-        "userId": "3d24b498-ea73-489d-8d21-eda338f5b242",
-        "parentId": "f173ba22-771a-4da7-945d-e6a06ded044c",
-        "profiles": [
-            {
-                "fps": 30,
-                "gop": "2.0",
-                "name": "720p",
-                "width": 1280,
-                "height": 720,
-                "bitrate": 2000000
-            },
-            {
-                "fps": 30,
-                "gop": "2.0",
-                "name": "480p",
-                "width": 854,
-                "height": 480,
-                "bitrate": 1000000
-            },
-            {
-                "fps": 30,
-                "gop": "2.0",
-                "name": "360p",
-                "width": 640,
-                "height": 360,
-                "bitrate": 500000
-            }
-        ],
-        "createdAt": 1648381890109,
-        "ingestRate": 0,
-        "renditions": {},
-        "outgoingRate": 0,
-        "recordingStatus": "ready",
-        "recordingUrl": "https://cdn.livepeer.com/recordings/f1733111-29e7-49b3-9264-40843794fdbc/index.m3u8",
-        "mp4Url": "https://cdn.livepeer.com/recordings/f1733111-29e7-49b3-9264-40843794fdbc/source.mp4"
-    },
-    
-]
