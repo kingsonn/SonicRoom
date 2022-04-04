@@ -46,7 +46,7 @@
     "react-swipeable-views": "0.13.9",
     "react-table": "7.7.0",
     "react-tagsinput": "3.19.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "4.0.3",
     "socket.io-client": "^4.4.1",
     "stylis": "^4.0.13",
     "crypto-browserify":"^3.12.0",
